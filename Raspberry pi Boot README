@@ -1,0 +1,11 @@
+Matteo Trevisan "Toolkitman" Creative Commons 4.0 Share alike licence
+********************************************************************************************************
+Script to boot at startup the POM 1 emulator under Raspbian latest release:
+open a Terminal window in Raspbian, write sudo nano /etc/rc.local and type return,
+go down to the page until you find "exit 0" and above this line (not deleting it but above the line) 
+write sudo pom1 /"name_of_folder_pom1_is_installed"/pom1 , press ctrl - X and the job is done.
+
+To install pom1 emulator in raspbian download the file for Arch linux and follow the install instruction
+after installing SDL library.
+
+Thank you for reading
